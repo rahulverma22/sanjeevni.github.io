@@ -6,6 +6,26 @@ nav {
 
 }
 
+.item1{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.item2{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.item3{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
 .dropdown {
     background-color: aliceblue;
 
@@ -89,7 +109,6 @@ nav {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-
 }
 
 .contactbtn:hover {
@@ -98,7 +117,7 @@ nav {
 }
 
 .loginbtn {
-
+    margin-top: 10px;
     margin-left: 20px;
     height: 40px;
     width: 100px;
@@ -189,24 +208,24 @@ div.midportion {
 
 .infomationtag {
     text-align: center;
-    color: white;
-    font-size: 50px;
+    color: darkgrey;
+    font-size: 40px;
     font-style: italic;
     text-transform: capitalize;
 }
 
 .ourservicesheader {
     text-align: left;
-    color: white;
+    color: darkgray;
     font-size: 30px;
     font-style: italic;
     text-transform: capitalize;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .ourservicesparagraph {
     font-size: 20px;
-    color: white;
+    color: darkgray;
     margin-top: 40px;
 }
 
@@ -251,7 +270,7 @@ body {
     margin-bottom: 3%;
     margin-top: 0%;
     background-color: rgb(0, 0, 102);
-    border-radius: 1%;
+    border-radius: 20px;
 }
 
 .imgcoloum {
@@ -365,16 +384,6 @@ body {
 .fa-instagram:hover {
     color: deeppink;
 }
-
-.fa-linkedin {
-    margin-left: 20px;
-    color: white;
-}
-
-.fa-linkedin:hover {
-    color: cyan;
-}
-
 .fa-info {
     margin-left: 20px;
     color: white;
