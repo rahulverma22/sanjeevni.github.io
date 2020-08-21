@@ -1,0 +1,233 @@
+nav {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.item1 {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.item2 {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.item3 {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.dropdown {
+    background-color: aliceblue;
+
+}
+
+.brand-name {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.logoimg {
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.searchbar {
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 5px;
+    font: none;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    border-radius: 5px;
+    background-color: #E5E4E2;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.searchbar:hover {
+    background-color: #8D7490;
+    color: white;
+}
+
+.navbtn {
+    margin-left: 20px;
+    height: 40px;
+    width: 60px;
+    font: none;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    border-radius: 5px;
+    background-color: #E5E4E2;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbtn:hover {
+    background-color: #8D7490;
+    color: white;
+}
+
+.contactbtn {
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    font: none;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    border-radius: 5px;
+    background-color: #E5E4E2;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contactbtn:hover {
+    background-color: #8D7490;
+    color: white;
+}
+
+.loginbtn {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    font: none;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    border-radius: 5px;
+    background-color: #E5E4E2;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.loginbtn:hover {
+    background-color: #8D7490;
+    color: white;
+}
+
+.signbtn {
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    font: none;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    border-radius: 5px;
+    background-color: #E5E4E2;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.signbtn:hover {
+    background-color: #8D7490;
+    color: white;
+}
+
+
+/*flex-box*/
+
+
+.card-deck{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-deck:hover{
+    margin-top: 5px;
+}
+.card{
+    border: 1px solid black;
+}
+.card-first{
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.card-block{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card-img-top{
+    height: 235px;
+    width: 250px;
+}
+
+
+
+.f1 {
+    background-color: black;
+}
+
+.infomationtag {
+    text-align: center;
+    color: darkgrey;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.ourservicesheader {
+    text-align: left;
+    color: darkgray;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.ourservicesparagraph {
+    font-size: 15px;
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.copyrightline {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    color: whitesmoke;
+    margin-top: 20px;
+}
