@@ -40,7 +40,52 @@
             </ul>
         </div>
     </nav>
+<!--search box -->
+  
+  <div class="text-center">
+        <div class="dropdown listdropdown">
+            <button onclick="myFunction()" class="dropbtn">search your landmark here</button>
+            <div id="myDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                <a href="#">Fariha</a>
+                <a href="#">Firozabad city</a>
+                <a href="#">Jasrana</a>
+                <a href="#">Makhanpur</a>
+                <a href="#">Shikohabad</a>
+                <a href="#">Sirsaganj</a>
+                <a href="#">Tundla</a>
 
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function filterFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+
+
+  
+  
+  <!--flex box-->
    <div class="fluid-container itemscontainer">
         <div class="col-sm-12">
             <div class="row">

@@ -40,8 +40,119 @@
             </ul>
         </div>
     </nav>
+    <!--serach bar-->
 
-<div class="fluid-container itemscontainer">
+    <div class="text-center">
+        <div class="dropdown listdropdown">
+            <button onclick="myFunction()" class="dropbtn">search your district here</button>
+            <div id="myDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                <a href="#">Agra</a>
+                <a href="#">Aligarh</a>
+                <a href="#">Allahabad</a>
+                <a href="#">Ambedkar Nagar</a>
+                <a href="#">Amethi</a>
+                <a href="#">Amroha</a>
+                <a href="#">Auraiya</a>
+                <a href="#">Azamgarh</a>
+                <a href="#">Baghpat</a>
+                <a href="#">Bahraich</a>
+                <a href="#">Ballia</a>
+                <a href="#">Balrampur</a>
+                <a href="#">Banda</a>
+                <a href="#">Barabanki</a>
+                <a href="#">Bareilly</a>
+                <a href="#">Basti</a>
+                <a href="#">Bhadohi</a>
+                <a href="#">Bijnor</a>
+                <a href="#">Budaun</a>
+                <a href="#">Bulandshahr</a>
+                <a href="#">Chandauli</a>
+                <a href="#">Chitrakoot</a>
+                <a href="#">Deoria</a>
+                <a href="#">Etah</a>
+                <a href="#">Etawah</a>
+                <a href="#">Faizabad</a>
+                <a href="#">Farrukhabad</a>
+                <a href="#">Fatehpur</a>
+                <a href="firozabad_list.html">Firozabad</a>
+                <a href="#">Gautam Buddha Nagar</a>
+                <a href="#">Ghaziabad</a>
+                <a href="#">Ghazipur</a>
+                <a href="#">Gonda</a>
+                <a href="#">Gorakhpur</a>
+                <a href="#">Hamirpur</a>
+                <a href="#">Hapur</a>
+                <a href="#">Hardoi</a>
+                <a href="#">Hathras</a>
+                <a href="#">Jalaun</a>
+                <a href="#">Jaunpur</a>
+                <a href="#">Jhansi</a>
+                <a href="#">Kannauj</a>
+                <a href="#">Kanpur Dehat</a>
+                <a href="#">Kanpur Nagar</a>
+                <a href="#">Kanshiram Nagar</a>
+                <a href="#">Kaushambi</a>
+                <a href="#">Kushinagar</a>
+                <a href="#">Lakhimpur</a>
+                <a href="#">Lalitpur</a>
+                <a href="#">Lucknow</a>
+                <a href="#">Maharajganj</a>
+                <a href="#">Mahoba</a>
+                <a href="#">Mainpuri</a>
+                <a href="#">Mathura</a>
+                <a href="#">Mau</a>
+                <a href="#">Meerut</a>
+                <a href="#">Mirzapur</a>
+                <a href="#">Moradabad</a>
+                <a href="#">Muzaffarnagar</a>
+                <a href="#">Pilibhit</a>
+                <a href="#">Pratapgarh</a>
+                <a href="#">RaeBareli</a>
+                <a href="#">Rampur</a>
+                <a href="#">Saharanpur</a>
+                <a href="#">Sambhal</a>
+                <a href="#">Sant Kabir Nagar</a>
+                <a href="#">Shahjahanpur</a>
+                <a href="#">Shamali</a>
+                <a href="#">Shravasti</a>
+                <a href="#">Siddharth Nagar</a>
+                <a href="#">Sitapur</a>
+                <a href="#">Sonbhadra</a>
+                <a href="#">Sultanpur</a>
+                <a href="#">Unnao</a>
+                <a href="#">Varanasi</a>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function filterFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+
+
+    <!--flex box-->
+    <div class="fluid-container itemscontainer">
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
@@ -97,7 +208,7 @@
             </div>
         </div>
     </div>
-<div class="fluid-container itemscontainer">
+    <div class="fluid-container itemscontainer">
         <div class="col-sm-12">
             <div class="row">
                 <div class="card-deck">
@@ -899,7 +1010,7 @@
         </div>
     </div>
 
-   
+
     <footer>
         <div class="fluid-container f1">
             <div class="container-fluid ">
